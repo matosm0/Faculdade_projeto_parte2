@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#titulo{
+    font-family: sans-serif;
+    color: aliceblue;
+    margin-left: 4%;
+
+}
+
+fieldset{
+border: 0;
+
+}
+
+body{
+    background-image: url(planodefundo.jpg);
+    font-family: sans-serif;
+    font-size: 1em;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+    color: aliceblue;
+}
+
+input, select, button{
+    border-radius: 5px;
+
+}
+
+.campo{
+    margin-bottom: 1em;
+    
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+fieldset .grupo .campo{
+    float: left;
+    margin-right:1em ;
+}
+
+.campo input[type='text'], .campo[type='email'] .campo select, .campo[type='date']{
+    padding: 0.2em;
+    border:1px solid aliceblue ;
+    display: block;
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus{
+    background: #e0e0f5 ;
+
+
+}
+
+.botao{
+    font-size: 1.2em;
+    background: rgb(255, 255, 255);
+    border: 0;
+    margin-bottom: 1em;
+    color: #000000;
+    padding: 0.2em 0.6em;
+    cursor: pointer;
+
+}
+
+.obrigado{
+font-family: sans-serif;
+display: flex;
+padding-top: 5em;
+padding-right: 30%;
+
+}
+

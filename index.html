@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVA2</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="main.js" type="text/javascript"></script>
+</head>
+<body>
+    <script>
+        
+    </script>
+    
+
+    <div><h1 id="titulo">Formulário UVA</h1></div>
+    <br></br>
+
+    
+        <form action="">
+            <fieldset class="grupo">
+                <div class="campo" >
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" name="nome" id="nome" minlength="15" placeholder="Nome"
+                    required>
+                </div>
+
+              
+            </fieldset>
+
+                <div class="campo">
+                    <label for="email">E-mail</label>
+                    <input type="email" nome="email" id="email" minlength="10" placeholder="E-mail" required>
+                </div>
+
+                <div class="campo">
+                    <label for="data">Data de Nascimento</label>
+                    <input type='date' required>
+                </div>
+
+                <div class="campo" >
+                    <label for="sexo" >Sexo</label>
+                    <label>
+                        <input type="radio" nome="sexo" value="masculino" > Masculino
+                    </label>
+                    <label>
+                        <input type="radio" nome='sexo' value="feminino" > Feminino
+                    </label>
+            
+            
+            
+                </div>
+
+                <div class="campo">
+                    <label for="estadocivil">Estado Civil</label>
+                    <label>
+                        <input type="radio" nome="sexo" value="Solteiro"> Solteiro
+                    </label>
+                    <label>
+                        <input type="radio" nome='sexo' value="Casado"> Casado
+                    </label>
+            
+                </div>
+
+                <div class="campo">
+                    <label for="areadeinteresse">Área de interesse</label>
+                    <select name="" id="areadeinteresse" required>
+                        <option value="" selected disabled></option>
+                        <option value="">Engenharia de Software</option>
+                        <option value="">Banco de Dados</option>
+                        <option value="">Redes de computadores</option>
+                        <option value="">Desenvolvimento</option>
+                        <option value="">Análise</option>
+                    </select>
+                </div>
+                
+                <br></br>
+                <button  class="botao" value="http://127.0.0.1:5500/obrigado.html">Finalizar</button>
+            </form>
+
+            
+    
+         
+</body>
+</html>
